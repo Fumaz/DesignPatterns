@@ -9,6 +9,7 @@ public class Pizza {
     private final boolean prosciutto;
     private final boolean cipolla;
 
+    // Questo costruttore é lunghissimo! Come faremo mai a ricordarci l'ordine dei parametri?
     public Pizza(int dimensione, boolean formaggio, boolean pomodoro, boolean salame, boolean prosciutto, boolean cipolla) {
         this.dimensione = dimensione;
         this.formaggio = formaggio;

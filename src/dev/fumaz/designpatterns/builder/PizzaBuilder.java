@@ -8,6 +8,7 @@ public class PizzaBuilder {
     private boolean prosciutto;
     private boolean cipolla;
 
+    // Il costruttore contiene solo i parametri strettamente necessari
     public PizzaBuilder(int dimensione) {
         this.dimensione = dimensione;
     }
@@ -37,6 +38,7 @@ public class PizzaBuilder {
         return this;
     }
 
+    // Questo metodo crea la vera pizza
     public Pizza build() {
         return new Pizza(dimensione, formaggio, pomodoro, salame, prosciutto, cipolla);
     }
